@@ -18,6 +18,7 @@
 . O projeto possui a seguinte estrutura de arquivos:
 
 planejador-de-viagem
+
 ├── index.html      
 ├── style.css        
 ├── script.js      
