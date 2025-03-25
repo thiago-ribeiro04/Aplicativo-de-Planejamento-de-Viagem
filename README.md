@@ -17,11 +17,11 @@
 
 . O projeto possui a seguinte estrutura de arquivos:
 
-planejador-de-viagem/
-├── index.html       # Arquivo HTML principal
-├── style.css        # Arquivo de estilo CSS
-├── script.js        # Arquivo JavaScript para manipulação de dados
-├── README.md        # Este arquivo de documentação
+planejador-de-viagem
+├── index.html      
+├── style.css        
+├── script.js      
+├── README.md      
 
 . Como Funciona
 
@@ -32,7 +32,6 @@ planejador-de-viagem/
 2. style.css
 
 . Este arquivo contém os estilos básicos para tornar a interface do usuário agradável e fácil de usar. Ele inclui:
-
   - Estilos para o formulário de entrada.
   - Estilos para a lista de itinerários.
   - Estilos para os botões de ação.
@@ -40,14 +39,10 @@ planejador-de-viagem/
 3. script.js
 
 . O JavaScript é responsável por manipular os dados da aplicação, incluindo a adição, exibição e exclusão dos itinerários:
-
-loadTrips(): Carrega os itinerários salvos no LocalStorage e exibe-os na lista.
-
-saveTrips(): Salva a lista de itinerários no LocalStorage.
-
-Adicionar Viagem: O evento de envio do formulário que captura as informações inseridas e as salva no LocalStorage.
-
-Excluir Viagem: Quando o botão "Excluir" é clicado, o itinerário correspondente é removido do LocalStorage.
-
+  - loadTrips(): Carrega os itinerários salvos no LocalStorage e exibe-os na lista.
+  - saveTrips(): Salva a lista de itinerários no LocalStorage.
+  - Adicionar Viagem: O evento de envio do formulário que captura as informações inseridas e as salva no LocalStorage.
+  - Excluir Viagem: Quando o botão "Excluir" é clicado, o itinerário correspondente é removido do LocalStorage.
+    
 4. LocalStorage
 O LocalStorage é utilizado para salvar e persistir os itinerários de viagem no navegador. Cada viagem é salva como um objeto JSON que é convertido de volta para um array de itinerários quando a página é recarregada.
